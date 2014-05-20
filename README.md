@@ -23,7 +23,7 @@ PHP5, mysqli, MySQL
 Setup
 =====
 
-1. Import schema.sql
+1. Import `docs/schema.sql` to your MySQL database
 2. Copy `config.php.dist` to `config.php` and modify it accordingly.
 3. Copy `messages.php.dist` to `messages.php` and modify it accordingly.
 4. Modify `style.css` or `style.scss` to your needs (generate a new `style.css` by running `scss style.scss > style.css`)
@@ -36,3 +36,8 @@ Screenshots
 ![youhavebeenasked](docs/askme3.png "You have been asked")
 ![youhavebeenasked_answer](docs/askme4.png "You have been asked - Open Answer")
 ![user1hasanswered](docs/askme5.png "User1 has anwered ")
+
+License
+===========
+
+[BSD](LICENSE.md)
