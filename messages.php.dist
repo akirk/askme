@@ -1,0 +1,93 @@
+<?php
+define("msg_pagename", "ask me");
+define("msg_pagetitle", "ask me");
+
+define("msg_header_username_email", "%username: %email");
+
+define("msg_you", "You");
+define("msg_answered_open_questions", "%answered / %open questions");
+define("msg_answer_now", "answer now");
+define("msg_edit", "edit");
+define("msg_privately", "privately");
+define("msg_anonymously", "anonymously");
+
+define("msg_question", "Question");
+define("msg_answer", "Answer");
+define("msg_your_answer", "Your Answer");
+define("msg_your_question", "Your Question");
+define("msg_answered_by_username", "answered by %username");
+define("msg_question_by_username", "Question by %username:");
+
+define("msg_you_dont_have_any_open_questions", "You don't have any open questions");
+define("msg_you_have_been_asked", "You have been asked");
+define("msg_ask_username", "Ask %username");
+define("msg_you_havent_been_asked_anything_yet", "You haven't been asked anything yet");
+define("msg_you_have_answered_these_questions", "You have answered these questions");
+define("msg_username_has_answered_these_questions", "%username has answered these questions");
+define("msg_ask_someone_else_about_something", "Ask someone else about something");
+define("msg_username_has_not_yet_answered_these_questions_of_yours", "%username has not yet answered these questions of yours");
+
+define("msg_1_unanswered_question_asked_by_others", "1 unanswered question asked by others.");
+define("msg_count_unanswered_questions_asked_by_others", "%count unanswered questions asked by others.");
+
+define("msg_asked_by_username_time", "Asked by %username %time:");
+define("msg_asked_anonymously_time", "Asked anonymously %time:");
+define("msg_answered_time", "Answered %time");
+define("msg_answered_privately_time", "Answered privately %time");
+define("msg_answer_privately_checkbox", "Answer privately: %checkbox");
+define("msg_ask_anonymously_checkbox", "Ask anonymously: %checkbox");
+
+define("msg_button_ask", "Ask");
+define("msg_button_answer", "Answer");
+define("msg_button_cancel_answer", "Don't answer now");
+define("msg_button_delete_question", "Delete");
+define("msg_button_save", "Save");
+define("msg_button_cancel_edit", "Cancel Edit");
+
+define("msg_years", "years");
+define("msg_year", "year");
+define("msg_months", "months");
+define("msg_month", "month");
+define("msg_days", "days");
+define("msg_day", "day");
+define("msg_hours", "hours");
+define("msg_hour", "hour");
+define("msg_minutes", "minutes");
+define("msg_minute", "minute");
+define("msg_seconds", "seconds");
+define("msg_second", "second");
+define("msg_just_now", "just now");
+define("msg_time_ago", "%time ago");
+
+define("msg_note_about_question", "<strong>Note:</strong> Only you (unless you ask anonymously) and %username can see the question until %username decides to answer it. %username will also be able to answer privately (again, unless you ask anonymously).");
+define("msg_note_about_being_asked", "<strong>Note:</strong> Only you can see these questions. You can decide to answer it or delete it, or to edit the question to reflect what you'd like to answer. Only when you answer them, other will be able to see it, unless you answer privately (which is only possible if the question has not been asked anonymously).");
+
+define("msg_mail_question_answered_subject", "%username has answered your question");
+define("msg_mail_question_answered_body", "Hi %me,
+
+%username answered your question:
+
+%question
+
+Answer:
+
+%answer
+
+Here you can see your other questions and answers:
+
+%url
+");
+
+define("msg_mail_question_asked_subject", "%username has asked you question");
+define("msg_mail_question_asked_body", "Hi %me,
+
+%username asked you a question:
+
+%question
+
+Go to this address to answer it:
+
+%url
+
+Happy answering,
+Alex");

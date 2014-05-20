@@ -1,0 +1,6 @@
+<?php
+$GLOBALS["db"] = new Mysqli("localhost", "user", "password", "database");
+
+define("BASE_URL", "http://localhost/");
+define("NOTIFICATION_MAILS_ENABLED", true);
+define("NOTIFICATION_FROM_ADDRESS", "user@host");
