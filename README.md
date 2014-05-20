@@ -1,7 +1,7 @@
 ask me
 ======
 
-This is a very simple formspring/spring.fm like question and answer script.
+This is a very simple formspring/spring.fm/ask.fm like question and answer web app.
 
 There is no user management (register, login, profile), authentication is supposed to be through HTTP Basic Authentication. There is a user table that can be extended to what you need.
 
@@ -9,6 +9,7 @@ Features
 ========
 
  - Ask any user a question
+ - Questions will be invisible to others until you choose to answer it
  - Questions can be asked anonymously
  - Questions can be modified before answering
  - Questions can be answered privately if they have not been asked anonymously
