@@ -20,11 +20,19 @@ Requirements
 
 PHP5, mysqli, MySQL
 
+Setup
+=====
+
+1. Import schema.sql
+2. Copy `config.php.dist` to `config.php` and modify it accordingly.
+3. Copy `messages.php.dist` to `messages.php` and modify it accordingly.
+4. Modify `style.css` or `style.scss` to your needs (generate a new `style.css` by running `scss style.scss > style.css`)
+
 Screenshots
 ===========
 
-![startpage](askme1.png "Startpage")
-![askuser1](askme1.png "Ask User 1")
-![youhavebeenasked](askme1.png "You have been asked")
-![youhavebeenasked_answer](askme1.png "You have been asked - Open Answer")
-![user1hasanswered](askme1.png "User1 has anwered ")
+![startpage](docs/askme1.png "Startpage")
+![askuser1](docs/askme2.png "Ask User 1")
+![youhavebeenasked](docs/askme3.png "You have been asked")
+![youhavebeenasked_answer](docs/askme4.png "You have been asked - Open Answer")
+![user1hasanswered](docs/askme5.png "User1 has anwered ")
