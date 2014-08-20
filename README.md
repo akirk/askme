@@ -1,7 +1,7 @@
 ask me
 ======
 
-This is a very simple formspring/spring.fm/ask.fm like question and answer web app.
+This is a very simple formspring/spring.me/ask.fm like question and answer web app.
 
 There is no user management (register, login, profile), authentication is supposed to be through HTTP Basic Authentication. There is a user table that can be extended to what you need.
 
